@@ -33,8 +33,8 @@
     <!-- header section  -->
 
 
-    <header class="container mx-auto w-11/12">
-        <div class="navbar">
+    <header class=" bg-[#ffff]">
+        <div class="navbar mx-auto w-11/12">
             <div class="navbar-start navbar flex flex-row-reverse lg:flex-row justify-between lg:justify-normal">
 
                 <a class="btn btn-ghost text-3xl text-[#212121] ">
@@ -91,13 +91,8 @@
 
             </div>
         </div>
-    </header>
-
-    <!-- main section  -->
-
-    <main>
         <!-- banner section start here  -->
-        <section class="container mx-auto px-4 my-24">
+        <section class="container mx-auto px-4 my-24 ">
             <div class="flex justify-center">
                 <div><img w src="./assets/banner.png" alt=""></div>
             </div>
@@ -111,7 +106,7 @@
                         weathered wood, sleek metal <br> accents, and large windows that flood the space with natural
                         light.</p>
                 </div>
-                <div>
+                <div class="pb-10">
                     <a class="btn bg-[#acef5f84]
                 rounded-full font-bold px-20 lg:px-5">
                         Book Consult
@@ -122,10 +117,16 @@
                 </div>
             </div>
         </section>
+    </header>
+
+    <!-- main section  -->
+
+    <main>
+        
         <!-- banner section end here  -->
 
         <!-- 3 down section  -->
-        <section class="w-11/12 mx-auto lg:px-24 px-4">
+        <section class="w-11/12 mx-auto lg:px-24 px-4 bg-[#F4F4F4]">
             <!-- 1st down section  -->
             <div class="flex lg:justify-between flex-col lg:flex-row space-y-4 mb-24">
 
@@ -137,7 +138,7 @@
 
                     <!-- button  -->
                     <div class="">
-                        <button class="btn w-36 h-10 rounded-full font-bold"><i class="fa-solid fa-arrow-right"></i>
+                        <button class="btn bg-white w-36 h-10 rounded-full font-bold"><i class="fa-solid fa-arrow-right"></i>
                             About Us</button>
                     </div>
                     <!-- text  -->
@@ -179,7 +180,7 @@
             </div>
 
             <!-- optional section  -->
-            <div>
+            <div class="bg-[#fff]">
                 <div>
                     <div class="join join-vertical w-full">
                         <div class="collapse collapse-arrow join-item border-base-300 border">
@@ -239,7 +240,7 @@
                 <!-- button  -->
 
                 <div class=" mt-4 flex justify-center">
-                    <button class="btn w-44 h-10 rounded-full font-bold"><i class="fa-solid fa-arrow-right"></i>
+                    <button class="btn bg-white w-44 h-10 rounded-full font-bold"><i class="fa-solid fa-arrow-right"></i>
                         How we works</button>
                 </div>
 
@@ -309,16 +310,16 @@
 
         <!-- our letest Portfolio -->
 
-        <section class="w-11/12 mx-auto">
+        <section class="bg-white">
 
-            <div>
+            <div class="w-11/12 mx-auto">
 
-                <div class=" mt-4 flex justify-center">
+                <div class=" mt-4 flex justify-center pt-10">
                     <button class="btn w-66 h-10 rounded-full font-bold"><i class="fa-solid fa-arrow-right"></i>
                         Explore our Latest works</button>
                 </div>
 
-                <h1 class="font-extrabold text-4xl text-[#212121] text-center">Our Latest Portfolio</h1>
+                <h1 class="font-extrabold text-4xl text-[#212121] text-center py-6">Our Latest Portfolio</h1>
                 <p class="text-[#494949] text-center">The barn house captivates with its blend of rustic charm and
                     modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
@@ -373,10 +374,11 @@
                     <img class="p-6 object-cover" src="./assets/img5.png" alt="">
                 </div>
 
-                <!-- <div class="py-6 pl-6 lg:hidden block">
-                    <img class="w-96" src="./assets/img3.png" alt="">
+                
+            </div>
+            <div class="border rounded-2xl lg:hidden block">
+                <img class="w-96" src="./assets/img3.png" alt="">
 
-                </div> -->
             </div>
 
 
@@ -387,8 +389,8 @@
 
         <!-- read our articale -->
         <!-- lates discuss  -->
-        <section class="container mx-auto ">
-            <div>
+        <section class="bg-[url('./assets/bg.jpg')]">
+            <div class="py-12">
                 <!-- button  -->
                 <div>
                     <div class=" mt-4 flex justify-center">
@@ -399,11 +401,11 @@
                 </div>
                 <!-- text  -->
                 <div>
-                    <h1 class="font-bold text-4xl text-[#212121]">Let’s Discuss Next Project</h1>
-                    <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and modern
+                    <h1 class="font-bold text-4xl text-[#212121] text-center py-6">Let’s Discuss Next Project</h1>
+                    <p class="text-[#494949] text-center">The barn house captivates with its blend of rustic charm and modern
                         sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
-                <div class="grid lg:grid-cols-2 w-10/12 gap-7 ">
+                <div class="grid lg:grid-cols-2 mx-auto w-11/12 gap-7 py-6">
                     <label class="input input-bordered flex items-center gap-2 rounded-full">
                         <input type="text" class="grow" placeholder="Search" />
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
@@ -443,16 +445,15 @@
                 </div>
 
 
-                <div>
-                    <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full h-32 p-5
-                     max-w-xs" />
+                <div class="w-11/12 mx-auto space-x-14">
+                    <textarea name="" placeholder="Write your message here" rows="4" class="w-full rounded-lg p-6 h-64" id=""></textarea>
                 </div>
 
-                <div>
+                <div class="mx-auto w-11/12 mt-6">
                     <a class="btn bg-[#ABEF5F]
-                    rounded-full w-full font-bold px-20 lg:px-5">
-                        Book Consult
-                        <div class="w-10 h-10 flex justify-center items-center bg-[#ABEF5F] rounded-full text-white">
+                    rounded-full w-full font-bold text-xl px-20 lg:px-5">
+                    Send Mail
+                        <div class="w-10 h-10 flex justify-center items-center bg-black rounded-full text-white">
                             <i class="fa-solid fa-arrow-right-long -rotate-45"></i>
                         </div>
                     </a>
@@ -473,10 +474,10 @@
                     </a>
                 </div>
                 <aside>
-                    <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal accents.</p>
                 </aside>
-                <nav class="grid grid-flow-col gap-20">
+                <nav class="grid lg:grid-flow-col grid-flow-row gap-20">
                     <a class="link link-hover font-bold">Home</a>
                     <a class="link link-hover font-bold">Service</a>
                     <a class="link link-hover font-bold">Portfolio</a>
@@ -486,7 +487,7 @@
                 <nav>
                     <div class="grid grid-flow-col gap-4">
                         <a class="btn bg-[#ABEF5F]
-                rounded-full font-bold px-20 lg:px-5">
+                rounded-full font-bold px-11 lg:px-5">
                             Book Consult
                             <div class="w-10 h-10 flex justify-center items-center bg-black rounded-full text-white">
                                 <i class="fa-solid fa-arrow-right-long  -rotate-45"></i>
