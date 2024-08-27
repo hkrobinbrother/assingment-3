@@ -7,12 +7,22 @@ module.exports = {
         font_manrope: "Manrope, sans-serif;",
       },
       colors:{
-        body_color_1: "rgb(255, 255, 255)",
-        body_color_2: "rgba(255, 255, 255, 0)",
+        color1:"#ABEF5F",
+        color2:"#ABEF5F80",
+        srce_color:"rgb(233, 233, 233)",
+        bk_color:"rgb(30, 30, 30);",
+        ywollo:"rgb(231, 193, 211)"
+        
+        
+        
+      },
+      backgroundImage: {
+        'image_1': "url('./assets/bg.jpg')",
         
       }
-    },
+      
   },
   plugins: [],
+}
 }
 
